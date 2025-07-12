@@ -153,16 +153,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Backend/Database Design", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Data Visualization Dashboards", //Insert stack or technology you have experience in
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -175,9 +175,9 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
+      company: "Blue Copper Technologies",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      date: "Apr 2022 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -185,17 +185,17 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Backend Developer",
+      company: "Iksen India",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      date: "June 2021 – May 2022",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "PHP Developer",
+      company: "TechMinda Inc",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "July 2019 – May 2021",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
@@ -305,59 +305,59 @@ const achievementSection = {
 
 // Blogs Section
 
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+// const blogSection = {
+//   title: "Blogs",
+//   subtitle:
+//     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+//   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+//   blogs: [
+//     {
+//       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+//       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+//       description:
+//         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+//     },
+//     {
+//       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+//       title: "Why REACT is The Best?",
+//       description:
+//         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Talks Sections
 
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+// const talkSection = {
+//   title: "TALKS",
+//   subtitle: emoji(
+//     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+//   ),
 
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//   talks: [
+//     {
+//       title: "Build Actions For Google Assistant",
+//       subtitle: "Codelab at GDG DevFest Karachi 2019",
+//       slides_url: "https://bit.ly/saadpasta-slides",
+//       event_url: "https://www.facebook.com/events/2339906106275053/"
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Podcast Section
 
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+// const podcastSection = {
+//   title: emoji("Podcast 🎙️"),
+//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//   // Please Provide with Your Podcast embeded Link
+//   podcast: [
+//     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Resume Section
 const resumeSection = {
@@ -397,9 +397,9 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
+  // blogSection,
+  // talkSection,
+  // podcastSection,
   contactInfo,
   twitterDetails,
   isHireable,
