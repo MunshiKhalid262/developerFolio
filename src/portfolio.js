@@ -178,10 +178,11 @@ const workExperiences = {
       company: "Blue Copper Technologies",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "Apr 2022 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Worked on enhancing payment and reporting solutions for the CANPAY Debit Payment Application, with a strong focus on improving client experience and AI-driven productivity tools..",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Integrated secure ACH/banking systems and customize payment solutions accross different merchants and customize merchant dashboard usability.",
+        "Built AI-powered task tools using GPT-4 to extract action items from meeting transcripts.",
+        "Built Invoice Parsing and Reporting tools using DocumentAI, Python, Gemini-AI and NodeJS.",
       ]
     },
     {
@@ -189,14 +190,24 @@ const workExperiences = {
       company: "Iksen India",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "June 2021 – May 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Contributed to the development of scalable web solutions, focusing on real estate and customized eCommerce platforms to enhance client experience and functionality.",
+      descBullets: [
+      "Led third-party service integration and architectural design for the Atlas real estate management platform.",
+      "Implemented secure payment gateways and optimized database queries for improved data retrieval.",
+      "Contributed to Arkgrading, a custom eCommerce site for card submissions in Australia, delivering tailored client features and improved usability."
+    ]
     },
     {
       role: "PHP Developer",
       company: "TechMinda Inc",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "July 2019 – May 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Worked on backend development for e-learning and wellness platforms, contributing to scalable feature development and system reliability using PHP frameworks.",
+      descBullets: [
+        "Developed and maintained backend systems for e-learning and wellness platforms, ensuring high performance and reliability.",
+        "Implemented RESTful APIs and integrated third-party services to enhance platform functionality.",
+        "Collaborated with frontend teams to ensure seamless integration and user experience across platforms."
+      ]
     }
   ]
 };
