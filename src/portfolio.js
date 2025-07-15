@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/MunshiKhalid262",
-  linkedin: "https://www.linkedin.com/in/munshi-md-khalid/",
+  linkedin: "https://www.linkedin.com/in/munshi-md-khalid-4b1262196/",
   gmail: "munshikhalid262@gmail.com",
   gitlab: "https://gitlab.com/munshikhalid262",
   facebook: "https://www.facebook.com/munshi.md.khalid",
@@ -52,11 +52,11 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Backend / User Interface Integration for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Payment gateways / LLM / Firebase/ AWS / Sendgrid / Jira and many more"
     )
   ],
 
@@ -126,23 +126,11 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Mallabhum Institute of Technology",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "B.tech in Computer Science and Engineering",
+      duration: "Aug 2015 - June 2019",
+      desc: "Participated in the industrial trainning at Ardent Software.",
     }
   ]
 };
@@ -176,7 +164,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Blue Copper Technologies",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/BlueCopperLogo.png"),
       date: "Apr 2022 – Present",
       desc: "Worked on enhancing payment and reporting solutions for the CANPAY Debit Payment Application, with a strong focus on improving client experience and AI-driven productivity tools..",
       descBullets: [
